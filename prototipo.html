@@ -73,7 +73,12 @@
     max-width: 1120px; margin:0 auto;
   }
   .brand{ display:flex; align-items:center; gap:12px; }
-  .brand img{ height: 40px; width:auto; }
+  .brand img{
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    flex: 0 0 48px;
+  }
   .brand span{ font-family:'Fraunces', serif; font-weight:600; font-size:1.05rem; color:var(--navy-deep); line-height:1.15; }
   .nav-links{ display:flex; gap:32px; font-size:0.92rem; font-weight:600; }
   .nav-links a{ color: var(--charcoal); opacity:0.75; transition: opacity .2s; }
@@ -124,7 +129,11 @@
   }
   .hero-ctas{ display:flex; gap:16px; flex-wrap:wrap; }
   .hero-visual{ position:relative; max-width: 320px; margin: 0 auto; text-align:center; }
-  .hero-visual img{ width:100%; height:auto; object-fit:contain; }
+  .hero-visual img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+  }
 
   @media (max-width: 900px){
     .hero{ grid-template-columns: 1fr; padding-top:56px; }
@@ -284,7 +293,7 @@
 <header>
   <nav class="nav">
     <a class="brand" href="#topo">
-      <img src="logo.png" alt="Crescimento de Verdade">
+      <img src="logo-simbolo.png" alt="Símbolo Crescimento de Verdade">
       <span>Crescimento<br>de Verdade</span>
     </a>
     <div class="nav-links">
@@ -317,7 +326,7 @@
       </div>
     </div>
     <div class="hero-visual">
-      <img src="main_logo.jpeg" alt="Logo Crescimento de Verdade">
+      <img src="logo-simbolo.png" alt="Logo Crescimento de Verdade">
     </div>
   </section>
 
