@@ -9,3 +9,6 @@ CODIGO/.vercel/
 
 # Atalhos locais do Windows
 *.lnk
+
+.vercel
+.env*
