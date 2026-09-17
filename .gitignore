@@ -1,3 +1,11 @@
+# Arquivos de trabalho e materiais do cliente
+audios/
+output/
+tmp/
+
+# Configuracao local da Vercel
+.vercel/
+CODIGO/.vercel/
+
 # Atalhos locais do Windows
 *.lnk
-
